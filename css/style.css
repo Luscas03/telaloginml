@@ -1,0 +1,136 @@
+
+#topo {
+    background-color: #fff059;
+    height: 250px;
+
+}
+#logo img {
+    width: 60px;
+    height: 50px;
+    margin-left: 8%;
+   margin-top: 10px;
+    position: absolute; 
+   
+    
+}
+#ct  {
+   margin-left: 85%;
+ 
+   transform: translatey(10px); 
+
+    
+}
+#meio {
+    background-color: #ededed;
+    height: 450px;
+}
+#form {
+    position: absolute; 
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 450px;
+    transform: translate(420px,-110px);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.041);
+    border: 1px solid rgba(182, 182, 182, 0.322);
+
+}
+#title {
+    padding: 5%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#email {
+    margin-left: 58px;
+}
+#btn button{
+background-color: #3483fa;
+color: white;
+border: 1px solid #3483fa;
+outline: none;
+margin-top: 50px;
+width: 300px;
+height: 50px;
+border-radius: 10px 10px 10px 10px;
+
+
+}
+#btn button:hover {
+    background-color: #347ce9;
+}
+#conta button{
+    background-color: #ffffff;
+    color: #3483fa;
+    border: 1px solid #ffffff ;
+    outline: none;
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+#conta button:hover {
+    background-color: #d9e7fa;
+    transition: 1s;
+}
+/* AQUI EH TESTE */
+.label-float{
+    position: relative;
+    padding-top: 13px;
+  }
+  
+  .label-float input{
+    border: 0;
+    border-bottom: 1px solid #bfbfbf;
+    outline: none;
+    min-width: 330px;
+    font-size: 20px;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-appearance:none;
+    border-radius: 0;
+  }
+  .label-float input:hover{
+    border-bottom: 2px solid #383838;
+    
+  }
+  
+  .label-float input:focus{
+    border-bottom: 1px solid #3483fa;
+  }
+  
+  .label-float input::placeholder{
+    color:transparent;
+  }
+  
+  .label-float label{
+    font-weight: lighter;
+    font-size: 20px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    color: #bfbfbf;
+  }
+ 
+  
+  .label-float input:required:invalid + label{
+    color: red;
+  }
+  .label-float input:focus:required:invalid{
+    border-bottom: 2px solid red;
+  }
+  .label-float input:required:invalid + label:before{
+    content: '*';
+  }
+  .label-float input:focus + label,
+  .label-float input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #bfbfbf;
+  }
